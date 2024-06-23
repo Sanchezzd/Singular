@@ -35,8 +35,10 @@ body {
 }
 
 .titulo {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 3.5rem; /* Tamanho da fonte */
     font-weight: bold; /* Negrito */
+    margin-top: 25px;
+    color: none;
 }
 
 .botao {
@@ -246,10 +248,30 @@ footer {
         font-size: 2rem; /* Tamanho da fonte reduzido */
     }
 
+    #oquesuaempresa {
+        border: none;
+        height: 100px;
+    }
+
+    .titulo3 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .diferencial {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 15px;
+    }
+
+    .teste {
+        text-align: center;
+
+    }
+
+    .saiba {
+        font-size: 20px ;
+        height: 40px;
     }
 
     .botao, .saiba, #querocontratar {
@@ -266,3 +288,67 @@ footer {
     }
 }
 
+/* Estilos da barra de navegação */
+.navbar1 .navbar {
+    background-color: black; /* Cor de fundo inicial */
+    transition: background-color 0.5s ease; /* Transição suave para a cor de fundo */
+}
+
+.navbar1 .navbar-nav .nav-link {
+    color: white; /* Cor do texto inicial */
+}
+
+.navbar11 {
+  background-color: none;
+  color: white;
+}
+
+#navbar-logo {
+    height: 40px; /* Ajuste a altura conforme necessário */
+    margin-right: 10px; /* Espaço entre o logo e o texto */
+    vertical-align: middle; /* Alinhar verticalmente com o texto */
+}
+
+.navbar1 .navbar-nav .nav-link:hover {
+    color: #ddd; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para tornar a barra de navegação transparente ao fazer scroll */
+.navbar1.scrolled .navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente ao fazer scroll */
+}
+
+/* Estilos da barra de navegação */
+.navbar1 .navbar {
+    background-color: black; /* Cor de fundo inicial */
+    transition: background-color 0.5s ease; /* Transição suave para a cor de fundo */
+}
+
+.navbar1 .navbar-nav .nav-link {
+    color: white; /* Cor do texto inicial */
+}
+
+.navbar1 .navbar-nav .nav-link:hover {
+    color: #ddd; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para tornar a barra de navegação transparente ao fazer scroll */
+.navbar1.scrolled .navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente ao fazer scroll */
+}
+
+/* Estilo para o logo */
+#navbar-logo {
+    height: 40px; /* Ajuste a altura conforme necessário */
+    margin-right: 10px; /* Espaço entre o logo e o texto */
+    vertical-align: middle; /* Alinhar verticalmente com o texto */
+}
+
+.navbar-brand {
+    display: flex; /* Usar flexbox para alinhar a imagem e o texto */
+    align-items: center; /* Alinhar verticalmente ao centro */
+}
+
+.navbar-brand span {
+    color: white; /* Cor do texto da marca */
+}
